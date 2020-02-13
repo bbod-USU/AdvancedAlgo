@@ -21,12 +21,8 @@ def main():
             dcTimeStart = time.time()
             divideConcur.DivideConcur(count, P, Q)
             dcTime += (time.time()-dcTimeStart)
-            print(i)
 
-        print("Highschool Time: ", highTime/10)
-        print("DC Time: ", dcTime/10)
         saveArray = [count, highTime/10, dcTime/10]
-        print(saveArray)
         with open("results.txt", "a") as myfile:
             print(str(saveArray), file=myfile)
             myfile.flush()
