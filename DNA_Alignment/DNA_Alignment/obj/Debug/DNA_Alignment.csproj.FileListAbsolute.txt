@@ -1,0 +1,5 @@
+/Users/bradybodily/Repositories/CS5050_Advanced_Algorithms/DNA_Alignment/DNA_Alignment/bin/Debug/DNA_Alignment.exe
+/Users/bradybodily/Repositories/CS5050_Advanced_Algorithms/DNA_Alignment/DNA_Alignment/bin/Debug/DNA_Alignment.pdb
+/Users/bradybodily/Repositories/CS5050_Advanced_Algorithms/DNA_Alignment/DNA_Alignment/obj/Debug/DNA_Alignment.csprojAssemblyReference.cache
+/Users/bradybodily/Repositories/CS5050_Advanced_Algorithms/DNA_Alignment/DNA_Alignment/obj/Debug/DNA_Alignment.exe
+/Users/bradybodily/Repositories/CS5050_Advanced_Algorithms/DNA_Alignment/DNA_Alignment/obj/Debug/DNA_Alignment.pdb

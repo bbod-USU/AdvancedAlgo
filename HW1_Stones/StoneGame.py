@@ -10,7 +10,7 @@ def main():
     #f = open("times.txt")
     programTime = time.time()
 
-    while time.time() - programTime < 60 * 30:
+    while time.time() - programTime < 60 * 1:
         N.append((0.0, 0.0))
         startSlowT = time.time()
         slowResult = slowWin(len(N)-1)
@@ -45,15 +45,17 @@ def main():
     plt.show()
     print(len(xCount))
 
+
 def slowWin(n):
-    if(n == 0):
+    if n == 0:
         return True
-    if(n == 1):
+    if n == 1:
         return False
     return not(slowWin(n-1) and slowWin(n-2))
 
 
 w = [None] * (len(N))
+
 
 def fastWin(n):
     w.append(None)

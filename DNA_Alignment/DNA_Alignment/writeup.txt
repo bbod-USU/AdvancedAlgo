@@ -1,0 +1,3 @@
+This algorithm becomes impracticle at about 25,000 entries due to memory allocation.
+
+Given larger storage this algorithm is incredibly fast. 
