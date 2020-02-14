@@ -22,7 +22,7 @@ def main():
             divideConcur.DivideConcur(count, P, Q)
             dcTime += (time.time()-dcTimeStart)
 
-        saveArray = [count, highTime/10, dcTime/10]
+        saveArray = [count, highTime, dcTime]
         with open("results.txt", "a") as myfile:
             print(str(saveArray), file=myfile)
             myfile.flush()
